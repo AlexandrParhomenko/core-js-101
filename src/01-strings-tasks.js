@@ -112,6 +112,7 @@ function removeLeadingAndTrailingWhitespaces(value) {
  */
 function repeatString(value, count) {
   let ans = '';
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < count; i++) {
     ans += value;
   }
